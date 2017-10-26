@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/LittleEMF/gen/main/java" modelPluginID="LittleEMF"
+    modelName="Littleints" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>littleints.ecore</foreignModel>
+  <genPackages prefix="Littleints" disposableProviderFactory="true" ecorePackage="littleints.ecore#/">
+    <nestedGenPackages prefix="ThoseInts" basePackage="littleints" disposableProviderFactory="true"
+        ecorePackage="littleints.ecore#//thoseInts">
+      <genClasses ecoreClass="littleints.ecore#//thoseInts/Int4">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//thoseInts/Int4/boolVal"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//thoseInts/Int4/intVal"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//thoseInts/Int4/strVal"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference littleints.ecore#//thoseInts/Int4/hlaType"/>
+      </genClasses>
+      <genClasses ecoreClass="littleints.ecore#//thoseInts/Int5">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//thoseInts/Int5/boolVal"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//thoseInts/Int5/doubVal"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//thoseInts/Int5/strVal"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference littleints.ecore#//thoseInts/Int5/hlaType"/>
+      </genClasses>
+      <genClasses ecoreClass="littleints.ecore#//thoseInts/Int6">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//thoseInts/Int6/boolVal"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//thoseInts/Int6/doubVal"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//thoseInts/Int6/strVal"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference littleints.ecore#//thoseInts/Int6/hlaType"/>
+      </genClasses>
+      <genClasses ecoreClass="littleints.ecore#//thoseInts/Obj4">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//thoseInts/Obj4/boolVal"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//thoseInts/Obj4/doubVal"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//thoseInts/Obj4/strVal"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference littleints.ecore#//thoseInts/Obj4/hlaType"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Theseints" basePackage="littleints" disposableProviderFactory="true"
+        ecorePackage="littleints.ecore#//theseints">
+      <genClasses ecoreClass="littleints.ecore#//theseints/Int3">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//theseints/Int3/boolVal"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//theseints/Int3/doubVal"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//theseints/Int3/strVal"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference littleints.ecore#//theseints/Int3/hlaType"/>
+      </genClasses>
+      <genClasses ecoreClass="littleints.ecore#//theseints/Int2">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//theseints/Int2/boolVal"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//theseints/Int2/doubVal"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//theseints/Int2/strVal"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference littleints.ecore#//theseints/Int2/hlaType"/>
+      </genClasses>
+      <genClasses ecoreClass="littleints.ecore#//theseints/Int1">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//theseints/Int1/boolVal"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//theseints/Int1/doubVal"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//theseints/Int1/strVal"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference littleints.ecore#//theseints/Int1/hlaType"/>
+      </genClasses>
+    </nestedGenPackages>
+  </genPackages>
+  <genPackages prefix="Federatecore" ecorePackage="federatecore.ecore#/">
+    <genClasses ecoreClass="federatecore.ecore#//Message">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute federatecore.ecore#//Message/message"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="federatecore.ecore#//HLAInteraction"/>
+    <genClasses image="false" ecoreClass="federatecore.ecore#//HLAObject"/>
+    <genClasses ecoreClass="federatecore.ecore#//JoinInteraction">
+      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference federatecore.ecore#//JoinInteraction/hlaType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute federatecore.ecore#//JoinInteraction/federateName"/>
+    </genClasses>
+    <genClasses ecoreClass="federatecore.ecore#//ResignInteraction">
+      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference federatecore.ecore#//ResignInteraction/hlaType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute federatecore.ecore#//ResignInteraction/federateName"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="federatecore.ecore#//SignalInteraction"/>
+  </genPackages>
+</genmodel:GenModel>

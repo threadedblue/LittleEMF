@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated littleints -->
+      <package
+            uri="http://thoseInts.edu"
+            class="littleints.thoseInts.ThoseIntsPackage"
+            genModel="model/littleints.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated littleints -->
+      <package
+            uri="http://theseInts.edu"
+            class="littleints.theseints.TheseintsPackage"
+            genModel="model/littleints.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated littleints -->
+      <package
+            uri="http://federatecore/core.hla.iox"
+            class="federatecore.FederatecorePackage"
+            genModel="model/littleints.genmodel"/>
+   </extension>
+
+</plugin>
