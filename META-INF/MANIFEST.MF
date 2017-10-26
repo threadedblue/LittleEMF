@@ -18,5 +18,6 @@ Export-Package: iox.hla.core.federatecore,
  littleints.thoseInts.util
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.ecore;visibility:=reexport,
+ federate-core;visibility:=reexport,
  org.eclipse.emf.ecore.xmi;visibility:=reexport
 Bundle-ActivationPolicy: lazy

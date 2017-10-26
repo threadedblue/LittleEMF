@@ -3,6 +3,7 @@
     xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/LittleEMF/gen/main/java" modelPluginID="LittleEMF"
     modelName="Littleints" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
     importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    usedGenPackages="../../federate-core/model/federatecore.genmodel#//federatecore"
     operationReflection="true" importOrganizing="true">
   <foreignModel>littleints.ecore</foreignModel>
   <genPackages prefix="Littleints" disposableProviderFactory="true" ecorePackage="littleints.ecore#/">
@@ -57,25 +58,7 @@
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//theseints/Int1/boolVal"/>
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//theseints/Int1/doubVal"/>
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute littleints.ecore#//theseints/Int1/strVal"/>
-        <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference littleints.ecore#//theseints/Int1/hlaType"/>
       </genClasses>
     </nestedGenPackages>
-  </genPackages>
-  <genPackages prefix="Federatecore" ecorePackage="federatecore.ecore#/">
-    <genClasses ecoreClass="federatecore.ecore#//Message">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute federatecore.ecore#//Message/message"/>
-    </genClasses>
-    <genClasses image="false" ecoreClass="federatecore.ecore#//HLAInteraction"/>
-    <genClasses image="false" ecoreClass="federatecore.ecore#//HLAObject"/>
-    <genClasses ecoreClass="federatecore.ecore#//JoinInteraction">
-      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference federatecore.ecore#//JoinInteraction/hlaType"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute federatecore.ecore#//JoinInteraction/federateName"/>
-    </genClasses>
-    <genClasses ecoreClass="federatecore.ecore#//ResignInteraction">
-      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference federatecore.ecore#//ResignInteraction/hlaType"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute federatecore.ecore#//ResignInteraction/federateName"/>
-    </genClasses>
-    <genClasses image="false" ecoreClass="federatecore.ecore#//SignalInteraction"/>
   </genPackages>
 </genmodel:GenModel>

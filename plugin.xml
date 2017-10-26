@@ -22,12 +22,4 @@
             genModel="model/littleints.genmodel"/>
    </extension>
 
-   <extension point="org.eclipse.emf.ecore.generated_package">
-      <!-- @generated littleints -->
-      <package
-            uri="http://federatecore/core.hla.iox"
-            class="federatecore.FederatecorePackage"
-            genModel="model/littleints.genmodel"/>
-   </extension>
-
 </plugin>
